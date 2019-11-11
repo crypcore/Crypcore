@@ -1339,37 +1339,37 @@
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="2155"/>
-        <source>Welcome to Monero, the private cryptocurrency.</source>
-        <translation>Willkommen bei Monero, der privaten Kryptowährung. </translation>
+        <source>Welcome to Crypcore, the private cryptocurrency.</source>
+        <translation>Willkommen bei Crypcore, der privaten Kryptowährung. </translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="2157"/>
-        <source>Monero, like Bitcoin, is a cryptocurrency. That is, it is digital money.</source>
-        <translation>Monero ist, wie Bitcoin, eine Kryptowährung. Also: digitales Geld.</translation>
+        <source>Crypcore, like Bitcoin, is a cryptocurrency. That is, it is digital money.</source>
+        <translation>Crypcore ist, wie Bitcoin, eine Kryptowährung. Also: digitales Geld.</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="2161"/>
-        <source>Monero protects your privacy on the blockchain, and while Monero strives to improve all the time,</source>
-        <translation>Monero schützt deine Privatsphäre auf der Blockchain, und während Monero bestrebt ist, sich andauernd zu verbessern,</translation>
+        <source>Crypcore protects your privacy on the blockchain, and while Crypcore strives to improve all the time,</source>
+        <translation>Crypcore schützt deine Privatsphäre auf der Blockchain, und während Crypcore bestrebt ist, sich andauernd zu verbessern,</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="2162"/>
-        <source>no privacy technology can be 100% perfect, Monero included.</source>
-        <translation>kann keine Privatsphärentechnologie hundertprozentig perfekt sein - Monero mit eingeschlossen.</translation>
+        <source>no privacy technology can be 100% perfect, Crypcore included.</source>
+        <translation>kann keine Privatsphärentechnologie hundertprozentig perfekt sein - Crypcore mit eingeschlossen.</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="2163"/>
-        <source>Monero cannot protect you from malware, and it may not be as effective as we hope against powerful adversaries.</source>
-        <translation>Monero kann dich nicht vor bösartiger Software schützen, und es könnte nicht so effektiv gegen machtvolle Gegner sein, wie wir hoffen.</translation>
+        <source>Crypcore cannot protect you from malware, and it may not be as effective as we hope against powerful adversaries.</source>
+        <translation>Crypcore kann dich nicht vor bösartiger Software schützen, und es könnte nicht so effektiv gegen machtvolle Gegner sein, wie wir hoffen.</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="2164"/>
-        <source>Flaws in Monero may be discovered in the future, and attacks may be developed to peek under some</source>
+        <source>Flaws in Crypcore may be discovered in the future, and attacks may be developed to peek under some</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="2165"/>
-        <source>of the layers of privacy Monero provides. Be safe and practice defense in depth.</source>
+        <source>of the layers of privacy Crypcore provides. Be safe and practice defense in depth.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1511,8 +1511,8 @@ Amount, Spent(&quot;T&quot;|&quot;F&quot;), &quot;frozen&quot;|&quot;locked&quot
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="2910"/>
-        <source>Donate &lt;amount&gt; to the development team (donate.getmonero.org).</source>
-        <translation>Spende &lt;Betrag&gt; ans Entwicklerteam (donate.getmonero.org).</translation>
+        <source>Donate &lt;amount&gt; to the development team (crypcore.com).</source>
+        <translation>Spende &lt;Betrag&gt; ans Entwicklerteam (crypcore.com).</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="2914"/>
@@ -1603,8 +1603,8 @@ If the &quot;tag_description&quot; argument is specified, the tag &lt;tag_name&g
  ask-password &lt;0|1|2   (or never|action|decrypt)&gt;
    action: ask the password before many actions such as transfer, etc
    decrypt: same as action, but keeps the spend key encrypted in memory when not needed
- unit &lt;monero|millinero|micronero|nanonero|piconero&gt;
-   Set the default monero (sub-)unit.
+ unit &lt;nanocryp&gt;
+   Set the default crypcore (sub-)unit.
  min-outputs-count [n]
    Try to keep at least that many outputs of value at least min-outputs-value.
  min-outputs-value [n]
@@ -1622,9 +1622,9 @@ If the &quot;tag_description&quot; argument is specified, the tag &lt;tag_name&g
  auto-low-priority &lt;1|0&gt;
    Whether to automatically use the low priority fee level when it&apos;s safe to do so.
  segregate-pre-fork-outputs &lt;1|0&gt;
-   Set this if you intend to spend outputs on both Monero AND a key reusing fork.
+   Set this if you intend to spend outputs on both Crypcore AND a key reusing fork.
  key-reuse-mitigation2 &lt;1|0&gt;
-   Set this if you are not sure whether you will spend on a key reusing Monero fork later.
+   Set this if you are not sure whether you will spend on a key reusing Crypcore fork later.
  subaddress-lookahead &lt;major&gt;:&lt;minor&gt;
    Set the lookahead sizes for the subaddress hash table.
  segregation-height &lt;n&gt;
@@ -1638,7 +1638,7 @@ If the &quot;tag_description&quot; argument is specified, the tag &lt;tag_name&g
  track-uses &lt;1|0&gt;
    Whether to keep track of owned outputs uses.
  setup-background-mining &lt;1|0&gt;
-   Whether to enable background mining. Set this to support the network and to get a chance to receive new monero.
+   Whether to enable background mining. Set this to support the network and to get a chance to receive new crypcore.
  device-name &lt;device_name[:device_spec]&gt;
    Device name for hardware wallet.
  export-format &lt;&quot;binary&quot;|&quot;ascii&quot;&gt;
@@ -1868,8 +1868,8 @@ Key Image, &quot;absolute&quot;, list of rings</source>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="3331"/>
-        <source>Prints basic info about Monero for first time users</source>
-        <translation>Drucke grundlegende Informationen über Monero für Erstnutzer</translation>
+        <source>Prints basic info about Crypcore for first time users</source>
+        <translation>Drucke grundlegende Informationen über Crypcore für Erstnutzer</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="3335"/>
@@ -1929,8 +1929,8 @@ Key Image, &quot;absolute&quot;, list of rings</source>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="3445"/>
-        <source>monero, millinero, micronero, nanonero, piconero</source>
-        <translation>Monero, Millinero, Micronero, Nanonero, Piconero</translation>
+        <source></source>
+        <translation>Crypcore, Millinero, Micronero, Nanonero, Piconero</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="3446"/>
@@ -2294,7 +2294,7 @@ Key Image, &quot;absolute&quot;, list of rings</source>
 To start synchronizing with the daemon, use the &quot;refresh&quot; command.
 Use the &quot;help&quot; command to see the list of available commands.
 Use &quot;help &lt;command&gt;&quot; to see a command&apos;s documentation.
-Always use the &quot;exit&quot; command when closing monero-wallet-cli to save 
+Always use the &quot;exit&quot; command when closing crypcore-wallet-cli to save 
 your current session&apos;s state. Otherwise, you might need to synchronize 
 your wallet again (your wallet keys are NOT at risk in any case).
 </source>
@@ -2302,7 +2302,7 @@ your wallet again (your wallet keys are NOT at risk in any case).
 Um die Synchronisation mit dem Hintergrunddienst zu starten, nutze den Befehl &quot;refresh&quot;.
 Nutze den Befehl &quot;help&quot;, um die Liste verfügbarer Befehle anzusehen.
 Nutze &quot;help &lt;command&gt;&quot;, um die Dokumentation eines Befehls anzuzeigen.
-Benutze stets den &quot;exit&quot;-Befehl, wenn du monero-wallet-cli schließt, 
+Benutze stets den &quot;exit&quot;-Befehl, wenn du crypcore-wallet-cli schließt, 
 um den Status deiner aktuellen Sitzung zu speichern. Anderenfalls ist es eventuell notwendig, 
 deine Wallet erneut zu synchronisieren (deine Wallet-Schlüssel sind in KEINEM Fall in Gefahr).
 </translation>
@@ -3098,7 +3098,7 @@ Get help about a subcommand with: help mms &lt;subcommand&gt;, or mms help &lt;s
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="3214"/>
-        <source>Set or modify authorized signer info (single-word label, transport address, Monero address), or list all signers</source>
+        <source>Set or modify authorized signer info (single-word label, transport address, Crypcore address), or list all signers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3352,7 +3352,7 @@ By using &apos;sync&apos; processing of waiting messages with multisig sync info
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="4237"/>
-        <source>You are strongly encouraged to connect to the Monero network using your own daemon</source>
+        <source>You are strongly encouraged to connect to the Crypcore network using your own daemon</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3367,7 +3367,7 @@ By using &apos;sync&apos; processing of waiting messages with multisig sync info
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="4258"/>
-        <source>If you are new to Monero, type &quot;welcome&quot; for a brief overview.</source>
+        <source>If you are new to Crypcore, type &quot;welcome&quot; for a brief overview.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3392,8 +3392,8 @@ By using &apos;sync&apos; processing of waiting messages with multisig sync info
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="4848"/>
-        <source>Background mining enabled. Thank you for supporting the Monero network.</source>
-        <translation>Hintergrund-Mining aktiviert. Danke, dass du das Monero-Netzwerk unterstützt.</translation>
+        <source>Background mining enabled. Thank you for supporting the Crypcore network.</source>
+        <translation>Hintergrund-Mining aktiviert. Danke, dass du das Crypcore-Netzwerk unterstützt.</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="4876"/>
@@ -3418,8 +3418,8 @@ By using &apos;sync&apos; processing of waiting messages with multisig sync info
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="4917"/>
-        <source>Enabling this supports the network you are using, and makes you eligible for receiving new monero</source>
-        <translation>Indem du dies einschaltest, unterstützt du das von dir genutzte Netzwerk, und du bist dadurch berechtigt, neue Monero zu erhalten</translation>
+        <source>Enabling this supports the network you are using, and makes you eligible for receiving new crypcore</source>
+        <translation>Indem du dies einschaltest, unterstützt du das von dir genutzte Netzwerk, und du bist dadurch berechtigt, neue Crypcore zu erhalten</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="4922"/>
@@ -3460,7 +3460,7 @@ Eingabe &amp;llu/%llu (%s): Betrag=%s</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="5838"/>
-        <source>I locked your Monero wallet to protect you while you were away</source>
+        <source>I locked your Crypcore wallet to protect you while you were away</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3502,7 +3502,7 @@ Eingabe &amp;llu/%llu (%s): Betrag=%s</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="2158"/>
-        <source>Unlike Bitcoin, your Monero transactions and balance stay private and are not visible to the world by default.</source>
+        <source>Unlike Bitcoin, your Crypcore transactions and balance stay private and are not visible to the world by default.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3512,7 +3512,7 @@ Eingabe &amp;llu/%llu (%s): Betrag=%s</translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="2167"/>
-        <source>Welcome to Monero and financial privacy. For more information see https://GetMonero.org</source>
+        <source>Welcome to Crypcore and financial privacy. For more information see https://crypcore.com</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3843,7 +3843,7 @@ This transaction (including %s change) will unlock on block %llu, in approximate
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="9923"/>
-        <source>Monero Address</source>
+        <source>Crypcore Address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3955,12 +3955,12 @@ This transaction (including %s change) will unlock on block %llu, in approximate
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="10148"/>
-        <source>Invalid Monero address</source>
+        <source>Invalid Crypcore address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="10155"/>
-        <source>Wallet state does not allow changing Monero addresses anymore</source>
+        <source>Wallet state does not allow changing Crypcore addresses anymore</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4339,7 +4339,7 @@ This transaction (including %s change) will unlock on block %llu, in approximate
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="7073"/>
-        <source>Donating %s %s to The Monero Project (donate.getmonero.org or %s).</source>
+        <source>Donating %s %s to The Crypcore Project (crypcore.com or %s).</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5342,7 +5342,7 @@ Use &quot;mms note&quot; to display the waiting notes</source>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="444"/>
-        <source> Monero Address = </source>
+        <source> Crypcore Address = </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5488,9 +5488,9 @@ Use &quot;mms note&quot; to display the waiting notes</source>
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="9740"/>
-        <source>This is the command line monero wallet. It needs to connect to a monero
+        <source>This is the command line crypcore wallet. It needs to connect to a crypcore
 daemon to work correctly.
-WARNING: Do not reuse your Monero keys on another fork, UNLESS this fork has key reuse mitigations built in. Doing so will harm your privacy.</source>
+WARNING: Do not reuse your Crypcore keys on another fork, UNLESS this fork has key reuse mitigations built in. Doing so will harm your privacy.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5510,7 +5510,7 @@ WARNING: Do not reuse your Monero keys on another fork, UNLESS this fork has key
     </message>
     <message>
         <location filename="../src/simplewallet/simplewallet.cpp" line="153"/>
-        <source>The newly created transaction will not be relayed to the monero network</source>
+        <source>The newly created transaction will not be relayed to the crypcore network</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5828,12 +5828,12 @@ WARNING: Do not reuse your Monero keys on another fork, UNLESS this fork has key
     </message>
     <message>
         <location filename="../src/wallet/wallet2.cpp" line="1723"/>
-        <source>Password is needed to compute key image for incoming monero</source>
+        <source>Password is needed to compute key image for incoming crypcore</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../src/wallet/wallet2.cpp" line="1724"/>
-        <source>Invalid password: password is needed to compute key image for incoming monero</source>
+        <source>Invalid password: password is needed to compute key image for incoming crypcore</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5928,7 +5928,7 @@ WARNING: Do not reuse your Monero keys on another fork, UNLESS this fork has key
     </message>
     <message>
         <location filename="../src/wallet/wallet_rpc_server.cpp" line="4494"/>
-        <source>This is the RPC monero wallet. It needs to connect to a monero
+        <source>This is the RPC crypcore wallet. It needs to connect to a crypcore
 daemon to work correctly.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -6041,7 +6041,7 @@ daemon to work correctly.</source>
     </message>
     <message>
         <location filename="../src/wallet/wallet_args.cpp" line="144"/>
-        <source>This is the command line monero wallet. It needs to connect to a monero
+        <source>This is the command line crypcore wallet. It needs to connect to a crypcore
 daemon to work correctly.</source>
         <translation type="unfinished"></translation>
     </message>
