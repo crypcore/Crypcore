@@ -1,14 +1,12 @@
-# Monero
+# Crypcore
 
+Copyright (c) 2019-2020 Crypcore.   
 Copyright (c) 2014-2019 The Monero Project.   
 Portions Copyright (c) 2012-2013 The Cryptonote developers.
 
 ## Table of Contents
 
   - [Development resources](#development-resources)
-  - [Vulnerability response](#vulnerability-response)
-  - [Research](#research)
-  - [Announcements](#announcements)
   - [Translations](#translations)
   - [Build Status](#build-status)
     - [IMPORTANT](#important)
@@ -35,63 +33,18 @@ Portions Copyright (c) 2012-2013 The Cryptonote developers.
 - GitHub: [https://github.com/monero-project/monero](https://github.com/monero-project/monero)
 - IRC: [#monero-dev on Freenode](https://webchat.freenode.net/?randomnick=1&channels=%23monero-dev&prompt=1&uio=d4)
 
-## Vulnerability response
-
-- Our [Vulnerability Response Process](https://github.com/monero-project/meta/blob/master/VULNERABILITY_RESPONSE_PROCESS.md) encourages responsible disclosure
-- We are also available via [HackerOne](https://hackerone.com/monero)
-
-## Research
-
-The [Monero Research Lab](https://src.getmonero.org/resources/research-lab/) is an open forum where the community coordinates research into Monero cryptography, protocols, fungibility, analysis, and more. We welcome collaboration and contributions from outside researchers! Because not all Lab work and publications are distributed as traditional preprints or articles, they may be easy to miss if you are conducting literature reviews for your own Monero research. You are encouraged to get in touch with our researchers if you have questions, wish to collaborate, or would like guidance to help avoid unnecessarily duplicating earlier or known work.
-
-Our researchers are available on IRC in [#monero-research-lab on Freenode](https://webchat.freenode.net/?randomnick=1&channels=%23monero-research-lab&prompt=1&uio=d4) or by email:
-
-- Sarang Noether, Ph.D.: [sarang@getmonero.org](mailto:sarang@getmonero.org) or [sarang.noether@protonmail.com](mailto:sarang.noether@protonmail.com); [research repository](https://github.com/SarangNoether/research-lab)
-- Surae Noether (Brandon Goodell), Ph.D.: [surae@getmonero.org](mailto:surae@getmonero.org) or [surae.noether@protonmail.com](mailto:surae.noether@protonmail.com); [research repository](https://github.com/b-g-goodell/research-lab)
-
-## Announcements
-
-- You can subscribe to an [announcement listserv](https://lists.getmonero.org) to get critical announcements from the Monero core team. The announcement list can be very helpful for knowing when software updates are needed.
-
 ## Translations
 The CLI wallet is available in different languages. If you want to help translate it, see our self-hosted localization platform, Weblate, on [translate.getmonero.org](https://translate.getmonero.org/projects/CLI/). Every translation *must* be uploaded on the platform, pull requests directly editing the code in this repository will be closed. If you need help with Weblate, you can find a guide with screenshots [here](https://github.com/monero-ecosystem/monero-translations/blob/master/weblate.md).
 &nbsp;
 
 If you need help/support/info about translations, contact the localization workgroup. You can find the complete list of contacts on the repository of the workgroup: [monero-translations](https://github.com/monero-ecosystem/monero-translations#contacts).
 
-## Build Status
-
-### IMPORTANT
-
-These builds are of the master branch, which is used for active development and can be either unstable or incompatible with release software. Please compile release branches.
-
-| Operating System      | Processor | Status |
-| --------------------- | -------- |--------|
-| Ubuntu 16.04          |  i686    | [![Ubuntu 16.04 i686](https://build.getmonero.org/png?builder=monero-static-ubuntu-i686)](https://build.getmonero.org/builders/monero-static-ubuntu-i686)
-| Ubuntu 16.04          |  amd64   | [![Ubuntu 16.04 amd64](https://build.getmonero.org/png?builder=monero-static-ubuntu-amd64)](https://build.getmonero.org/builders/monero-static-ubuntu-amd64)
-| Ubuntu 16.04          |  armv7   | [![Ubuntu 16.04 armv7](https://build.getmonero.org/png?builder=monero-static-ubuntu-arm7)](https://build.getmonero.org/builders/monero-static-ubuntu-arm7)
-| Debian Stable         |  armv8   | [![Debian armv8](https://build.getmonero.org/png?builder=monero-static-debian-armv8)](https://build.getmonero.org/builders/monero-static-debian-armv8)
-| macOS 10.11             |  amd64   | [![macOS 10.11 amd64](https://build.getmonero.org/png?builder=monero-static-osx-10.11)](https://build.getmonero.org/builders/monero-static-osx-10.11)
-| macOS 10.12             |  amd64   | [![macOS 10.12 amd64](https://build.getmonero.org/png?builder=monero-static-osx-10.12)](https://build.getmonero.org/builders/monero-static-osx-10.12)
-| macOS 10.13             |  amd64   | [![macOS 10.13 amd64](https://build.getmonero.org/png?builder=monero-static-osx-10.13)](https://build.getmonero.org/builders/monero-static-osx-10.13)
-| FreeBSD 11            |  amd64   | [![FreeBSD 11 amd64](https://build.getmonero.org/png?builder=monero-static-freebsd64)](https://build.getmonero.org/builders/monero-static-freebsd64)
-| DragonFly BSD 4.6     |  amd64   | [![DragonFly BSD amd64](https://build.getmonero.org/png?builder=monero-static-dragonflybsd-amd64)](https://build.getmonero.org/builders/monero-static-dragonflybsd-amd64)
-| Windows (MSYS2/MinGW) |  i686    | [![Windows (MSYS2/MinGW) i686](https://build.getmonero.org/png?builder=monero-static-win32)](https://build.getmonero.org/builders/monero-static-win32)
-| Windows (MSYS2/MinGW) |  amd64   | [![Windows (MSYS2/MinGW) amd64](https://build.getmonero.org/png?builder=monero-static-win64)](https://build.getmonero.org/builders/monero-static-win64)
-
-## Coverage
-
-| Type      | Status |
-|-----------|--------|
-| Coverity  | [![Coverity Status](https://scan.coverity.com/projects/9657/badge.svg)](https://scan.coverity.com/projects/9657/)
-| Coveralls | [![Coveralls Status](https://coveralls.io/repos/github/monero-project/monero/badge.svg?branch=master)](https://coveralls.io/github/monero-project/monero?branch=master)
-| License   | [![License](https://img.shields.io/badge/license-BSD3-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
 ## Introduction
 
-Monero is a private, secure, untraceable, decentralised digital currency. You are your bank, you control your funds, and nobody can trace your transfers unless you allow them to do so.
+Crypcore is a stable, private, secure, untraceable, decentralised digital currency. You are your bank, you control your funds, and nobody can trace your transfers unless you allow them to do so.
 
-**Privacy:** Monero uses a cryptographically sound system to allow you to send and receive funds without your transactions being easily revealed on the blockchain (the ledger of transactions that everyone has). This ensures that your purchases, receipts, and all transfers remain absolutely private by default.
+**Privacy:** Crypcore uses a cryptographically sound system to allow you to send and receive funds without your transactions being easily revealed on the blockchain (the ledger of transactions that everyone has). This ensures that your purchases, receipts, and all transfers remain absolutely private by default.
 
 **Security:** Using the power of a distributed peer-to-peer consensus network, every transaction on the network is cryptographically secured. Individual wallets have a 25 word mnemonic seed that is only displayed once, and can be written down to backup the wallet. Wallet files are encrypted with a passphrase to ensure they are useless if stolen.
 
@@ -107,25 +60,13 @@ As with many development projects, the repository on Github is considered to be 
 
 **Anyone is welcome to contribute to Monero's codebase!** If you have a fix or code change, feel free to submit it as a pull request directly to the "master" branch. In cases where the change is relatively small or does not affect other parts of the codebase it may be merged in immediately by any one of the collaborators. On the other hand, if the change is particularly large or complex, it is expected that it will be discussed at length either well in advance of the pull request being submitted, or even directly on the pull request.
 
-## Supporting the project
+## Supporting the Monero project
 
 Monero is a 100% community-sponsored endeavor. If you want to join our efforts, the easiest thing you can do is support the project financially. Both Monero and Bitcoin donations can be made to **donate.getmonero.org** if using a client that supports the [OpenAlias](https://openalias.org) standard. Alternatively you can send XMR to the Monero donation address via the `donate` command (type `help` in the command-line wallet for details).
 
 The Monero donation address is: `44AFFq5kSiGBoZ4NMDwYtN18obc8AemS33DBLWs3H7otXft3XjrpDtQGv7SqSsaBYBb98uNbr2VBBEt7f2wfn3RVGQBEP3A` (viewkey: `f359631075708155cc3d92a32b75a7d02a5dcf27756707b47a2b31b21c389501`)
 
-The Bitcoin donation address is: `1KTexdemPdxSBcG55heUuTjDRYqbC5ZL8H`
-
-Core development funding and/or some supporting services are also graciously provided by sponsors:
-
-[<img width="80" src="https://static.getmonero.org/images/sponsors/mymonero.png"/>](https://mymonero.com)
-[<img width="150" src="https://static.getmonero.org/images/sponsors/kitware.png?1"/>](https://kitware.com)
-[<img width="100" src="https://static.getmonero.org/images/sponsors/dome9.png"/>](https://dome9.com)
-[<img width="150" src="https://static.getmonero.org/images/sponsors/araxis.png"/>](https://araxis.com)
-[<img width="150" src="https://static.getmonero.org/images/sponsors/jetbrains.png"/>](https://www.jetbrains.com/)
-[<img width="150" src="https://static.getmonero.org/images/sponsors/navicat.png"/>](https://www.navicat.com/)
-[<img width="150" src="https://static.getmonero.org/images/sponsors/symas.png"/>](https://www.symas.com/)
-
-There are also several mining pools that kindly donate a portion of their fees, [a list of them can be found on our Bitcointalk post](https://bitcointalk.org/index.php?topic=583449.0).
+The Monero Bitcoin donation address is: `1KTexdemPdxSBcG55heUuTjDRYqbC5ZL8H`
 
 ## License
 
@@ -135,33 +76,6 @@ See [LICENSE](LICENSE).
 
 If you want to help out, see [CONTRIBUTING](CONTRIBUTING.md) for a set of guidelines.
 
-## Scheduled software upgrades
-
-Monero uses a fixed-schedule software upgrade (hard fork) mechanism to implement new features. This means that users of Monero (end users and service providers) should run current versions and upgrade their software on a regular schedule. Software upgrades occur during the months of April and October. The required software for these upgrades will be available prior to the scheduled date. Please check the repository prior to this date for the proper Monero software version. Below is the historical schedule and the projected schedule for the next upgrade.
-Dates are provided in the format YYYY-MM-DD.
-
-
-| Software upgrade block height  | Date       | Fork version      | Minimum Monero version | Recommended Monero version | Details                                                                            |  
-| ------------------------------ | -----------| ----------------- | ---------------------- | -------------------------- | ---------------------------------------------------------------------------------- |
-| 1009827                        | 2016-03-22 | v2                | v0.9.4                 | v0.9.4                     | Allow only >= ringsize 3, blocktime = 120 seconds, fee-free blocksize 60 kb       |
-| 1141317                        | 2016-09-21 | v3                | v0.9.4                 | v0.10.0                    | Splits coinbase into denominations  |
-| 1220516                        | 2017-01-05 | v4                | v0.10.1                | v0.10.2.1                  | Allow normal and RingCT transactions |
-| 1288616                        | 2017-04-15 | v5                | v0.10.3.0              | v0.10.3.1                  | Adjusted minimum blocksize and fee algorithm      |
-| 1400000                        | 2017-09-16 | v6                | v0.11.0.0              | v0.11.0.0                  | Allow only RingCT transactions, allow only >= ringsize 5      |
-| 1546000                        | 2018-04-06 | v7                | v0.12.0.0              | v0.12.3.0                  | Cryptonight variant 1, ringsize >= 7, sorted inputs
-| 1685555                        | 2018-10-18 | v8                | v0.13.0.0              | v0.13.0.4                  | max transaction size at half the penalty free block size, bulletproofs enabled, cryptonight variant 2, fixed ringsize [11](https://youtu.be/KOO5S4vxi0o)
-| 1686275                        | 2018-10-19 | v9                | v0.13.0.0              | v0.13.0.4                  | bulletproofs required
-| 1788000                        | 2019-03-09 | v10               | v0.14.0.0              | v0.14.1.2                  | New PoW based on Cryptonight-R, new block weight algorithm, slightly more efficient RingCT format
-| 1788720                        | 2019-03-10 | v11               | v0.14.0.0              | v0.14.1.2                  | forbid old RingCT transaction format
-| 1978433                        | 2019-11-30* | v12                | v0.15.0.0              | v0.15.0.0                  | New PoW based on RandomX, only allow >= 2 outputs, change to the block median used to calculate penalty, v1 coinbases are forbidden, rct sigs in coinbase forbidden, 10 block lock time for incoming transactions
-| XXXXXXX                        | XXX-XX-XX | XXX                | vX.XX.X.X              | vX.XX.X.X                  | XXX |
-
-X's indicate that these details have not been determined as of commit date.
-* indicates estimate as of commit date
-
-## Release staging schedule and protocol
-
-Approximately three months prior to a scheduled software upgrade, a branch from master will be created with the new release version tag. Pull requests that address bugs should then be made to both master and the new release branch. Pull requests that require extensive review and testing (generally, optimizations and new features) should *not* be made to the release branch.
 
 ## Compiling Monero from source
 
@@ -221,7 +135,7 @@ FreeBSD one liner for required to build dependencies
 
 Clone recursively to pull-in needed submodule(s):
 
-`$ git clone --recursive https://github.com/monero-project/monero`
+`$ git clone --recursive https://github.com/crypcore/crypcore`
 
 If you already have a repo cloned, initialize and update:
 
@@ -238,7 +152,7 @@ invokes cmake commands as needed.
 * Change to the root of the source code directory, change to the most recent release branch, and build:
 
     ```bash
-    cd monero
+    cd crypcore
     git checkout release-v0.15
     make
     ```
@@ -259,9 +173,9 @@ invokes cmake commands as needed.
 
 * The resulting executables can be found in `build/release/bin`
 
-* Add `PATH="$PATH:$HOME/monero/build/release/bin"` to `.profile`
+* Add `PATH="$PATH:$HOME/crypcore/build/release/bin"` to `.profile`
 
-* Run Monero with `monerod --detach`
+* Run Monero with `crypcored --detach`
 
 * **Optional**: build and run the test suite to verify the binaries:
 
@@ -313,8 +227,8 @@ Tested on a Raspberry Pi Zero with a clean install of minimal Raspbian Stretch (
 * Clone monero and checkout the most recent release version:
 
     ```bash
-    git clone https://github.com/monero-project/monero.git
-    cd monero
+    git clone https://github.com/crypcore/crypcore.git
+    cd crypcore
     git checkout tags/v0.15.0.0
     ```
 
@@ -328,9 +242,9 @@ Tested on a Raspberry Pi Zero with a clean install of minimal Raspbian Stretch (
 
 * The resulting executables can be found in `build/release/bin`
 
-* Add `PATH="$PATH:$HOME/monero/build/release/bin"` to `.profile`
+* Add `PATH="$PATH:$HOME/crypcore/build/release/bin"` to `.profile`
 
-* Run Monero with `monerod --detach`
+* Run Monero with `crypcored --detach`
 
 * You may wish to reduce the size of the swap file after the build has finished, and delete the boost directory from your home directory
 
@@ -421,7 +335,7 @@ application.
 * To git clone, run:
 
     ```bash
-    git clone --recursive https://github.com/monero-project/monero.git
+    git clone --recursive https://github.com/crypcore/crypcore.git
     ```
 
 **Building**
@@ -429,7 +343,7 @@ application.
 * Change to the cloned directory, run:
 
     ```bash
-    cd monero
+    cd crypcore
     ```
 
 * If you would like a specific [version/tag](https://github.com/monero-project/monero/tags), do a git checkout for that version. eg. 'v0.15.0.0'. If you don't care about the version and just want binaries from master, skip this step:
@@ -563,7 +477,7 @@ Packages are available for
 * Debian Bullseye and Sid
 
     ```bash
-    sudo apt install monero
+    sudo apt install crypcore
     ```
 More info and versions in the [Debian package tracker](https://tracker.debian.org/pkg/monero).
 
@@ -590,13 +504,13 @@ More info and versions in the [Debian package tracker](https://tracker.debian.or
     docker build -t monero .
     
     # or build using a specific number of cores (reduce RAM requirement)
-    docker build --build-arg NPROC=1 -t monero .
+    docker build --build-arg NPROC=1 -t crypcore .
     
     # either run in foreground
-    docker run -it -v /monero/chain:/root/.bitmonero -v /monero/wallet:/wallet -p 18080:18080 monero
+    docker run -it -v /monero/chain:/root/.crypcore -v /monero/wallet:/wallet -p 18080:18080 monero
     
     # or in background
-    docker run -it -d -v /monero/chain:/root/.bitmonero -v /monero/wallet:/wallet -p 18080:18080 monero
+    docker run -it -d -v /monero/chain:/root/.crypcore -v /monero/wallet:/wallet -p 18080:18080 monero
     ```
 
 * The build needs 3 GB space.
@@ -703,7 +617,7 @@ Run the build.
 Once it stalls, enter the following command:
 
 ```bash
-gdb /path/to/monerod `pidof monerod`
+gdb /path/to/crypcored `pidof crypcored`
 ```
 
 Type `thread apply all bt` within gdb in order to obtain the stack trace
@@ -721,7 +635,7 @@ When it terminates with an output along the lines of "Segmentation fault (core d
 You can now analyse this core dump with `gdb` as follows:
 
 ```bash
-gdb /path/to/monerod /path/to/dumpfile`
+gdb /path/to/crypcored /path/to/dumpfile`
 ```
 
 Print the stack trace with `bt`
@@ -734,7 +648,7 @@ coredumpctl -1 gdb
 
 #### To run monero within gdb:
 
-Type `gdb /path/to/monerod`
+Type `gdb /path/to/crypcored`
 
 Pass command-line options with `--args` followed by the relevant arguments
 
@@ -756,7 +670,7 @@ You can then run the monero tools normally. Performance will typically halve.
 
 #### valgrind
 
-Install valgrind and run as `valgrind /path/to/monerod`. It will be very slow.
+Install valgrind and run as `valgrind /path/to/crypcored`. It will be very slow.
 
 ### LMDB
 
