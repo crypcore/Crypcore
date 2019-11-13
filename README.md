@@ -153,7 +153,7 @@ invokes cmake commands as needed.
 
     ```bash
     cd crypcore
-    git checkout release-v0.15
+    git checkout -b release-v0.15
     make
     ```
 
